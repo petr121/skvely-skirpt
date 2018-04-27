@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-git config --global user.name "Petr Doležal"
-git config --global user.email "peta.hbrod@seznam.cz"
-git config --global core.editor vim
-git config --global credential.helper store	# Store credentials !It will save them as plain text!
-git config --global push.default simple
-git config --global --add merge.ff false	# Not ff on merge
-git config --global pull.ff only		# Do ff on pull
